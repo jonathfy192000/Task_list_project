@@ -1,0 +1,27 @@
+Deep Learning and Cyber Security
+
+help.rowdyhacks.org
+
+7:30 CST, CTF
+
+
+Database needed:
+
+	database for each school
+	school database:
+		department name, course name, namedtuple containing start, due, info, tips
+each course is going to have it's own database: school_name followed by course_name, like UCI_143A
+
+
+global vars for semaphores:
+	one for each school
+	store the semaphores in a list, access by index, if semaphore is 0, present an error message (later want to implement wait queue)
+	
+
+lot of push and pull to sql databases
+
+probably later also want to implement user accounts so they can actually have their own planners, and easily add/remove tasks from the school
+	databases
+
+
+Finish code first, then work on GUI, if I can learn and use PyQt then do that otherwise do Tkinter
